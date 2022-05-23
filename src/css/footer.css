@@ -1,0 +1,28 @@
+footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 200px;
+  background-color: var(--nero);
+  color: #fff;
+  overflow: hidden;
+}
+
+.contact {
+  margin: 3rem 2rem 0 2rem;
+  min-width: 236px;
+  text-align: center;
+}
+
+.contact > a:not(:last-child) {
+  margin-right: 2rem;
+}
+
+.contact > a:last-child {
+  margin-left: -9px;
+}
+
+.copyright {
+  margin-top: 2.25rem;
+}

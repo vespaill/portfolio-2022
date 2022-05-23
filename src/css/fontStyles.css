@@ -1,0 +1,88 @@
+﻿/*******************************************************************************
+**    File: fontStyles.css                                                   **
+**                                                                            **
+**    Importing some elegant LaTeX fonts                                      **
+*******************************************************************************/
+@font-face {
+  font-family: 'CMU Typewriter Italic';
+  src: url('../fonts/CMUTypewriter-Italic.eot');
+  src: url('../fonts/CMUTypewriter-Italic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/CMUTypewriter-Italic.woff2') format('woff2'),
+    url('../fonts/CMUTypewriter-Italic.woff') format('woff'),
+    url('../fonts/CMUTypewriter-Italic.ttf') format('truetype'),
+    url('../fonts/CMUTypewriter-Italic.svg#CMUTypewriter-Italic') format('svg');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'CMU Typewriter Regular';
+  src: url('../fonts/CMUTypewriter-Regular.eot');
+  src: url('../fonts/CMUTypewriter-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/CMUTypewriter-Regular.woff2') format('woff2'),
+    url('../fonts/CMUTypewriter-Regular.woff') format('woff'),
+    url('../fonts/CMUTypewriter-Regular.ttf') format('truetype'),
+    url('../fonts/CMUTypewriter-Regular.svg#CMUTypewriter-Regular') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CMU Serif Regular';
+  src: url('../fonts/CMUSerif-Roman.eot');
+  src: url('../fonts/CMUSerif-Roman.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/CMUSerif-Roman.woff2') format('woff2'),
+    url('../fonts/CMUSerif-Roman.woff') format('woff'),
+    url('../fonts/CMUSerif-Roman.ttf') format('truetype'),
+    url('../fonts/CMUSerif-Roman.svg#CMUSerif-Roman') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CMU Serif Upright';
+  src: url('../fonts/CMUSerif-UprightItalic.eot');
+  src: url('../fonts/CMUSerif-UprightItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/CMUSerif-UprightItalic.woff2') format('woff2'),
+    url('../fonts/CMUSerif-UprightItalic.woff') format('woff'),
+    url('../fonts/CMUSerif-UprightItalic.ttf') format('truetype'),
+    url('../fonts/CMUSerif-UprightItalic.svg#CMUSerif-UprightItalic') format('svg');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'CMU Serif Italic';
+  src: url('../fonts/CMUSerif-Italic.eot');
+  src: url('../fonts/CMUSerif-Italic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/CMUSerif-Italic.woff2') format('woff2'),
+    url('../fonts/CMUSerif-Italic.woff') format('woff'),
+    url('../fonts/CMUSerif-Italic.ttf') format('truetype'),
+    url('../fonts/CMUSerif-Italic.svg#CMUSerif-Italic') format('svg');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Liberate Wide Normal';
+  src: url('../fonts/LiberateWideNormal.eot');
+  src: url('../fonts/LiberateWideNormal.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/LiberateWideNormal.woff2') format('woff2'),
+    url('../fonts/LiberateWideNormal.woff') format('woff'),
+    url('../fonts/LiberateWideNormal.ttf') format('truetype'),
+    url('../fonts/LiberateWideNormal.svg#LiberateWideNormal') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NovaMono for Powerline';
+  src: url('../fonts/NovaMonoForPowerline.eot');
+  src: url('../fonts/NovaMonoForPowerline.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/NovaMonoForPowerline.woff2') format('woff2'),
+    url('../fonts/NovaMonoForPowerline.woff') format('woff'),
+    url('../fonts/NovaMonoForPowerline.ttf') format('truetype'),
+    url('../fonts/NovaMonoForPowerline.svg#NovaMonoForPowerline') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

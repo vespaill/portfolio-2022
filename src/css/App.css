@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* --------------------------------- Colors --------------------------------- */
+.bg-nero {
+  background-color: var(--nero);
+  color: white;
+}
+.bg-bone {
+  background-color: var(--bone);
+}
+.bg-dissipate {
+  background-color: var(--dissipate);
+  color: white;
+}
+.bg-portal-orange {
+  background-color: var(--portal-orange);
+}
+.color-nero {
+  color: var(--nero);
+}
+.color-deepSkyBlue {
+  color: var(--deep-sky-blue);
+}
+
+/* -------------------------------- Borders --------------------------------- */
+.border-x {
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+}
+.border-bottom-gray {
+  border-bottom: 1px solid gray;
+}
+.rounded-md {
+  border-radius: 12px;
+}
+.rounded-xl {
+  border-radius: 24px;
+}
+.underline {
+  border-bottom: 2px solid #000;
+  display: inline-block;
+  line-height: 0.7;
+}
+
+/* --------------------------------- Header --------------------------------- */
+.headerText {
+  font-family: 'CMU Typewriter Italic';
+  font-size: 64px;
+  letter-spacing: 5px;
+  cursor: default;
+}
+.headerFirstLetter::first-letter {
+  font-family: 'Courgette';
+}
+.custom-h2 {
+  font-weight: bold;
+  font-size: 32px;
+}
+.bold {
+  font-weight: bold;
+}
+
+/* --------------------------------- Intro ---------------------------------- */
+.intro {
+  padding: 30px 0;
+  line-height: 200%;
+}
+
+.paragraphFirstLetter::first-letter {
+  font-size: 200%;
+  font-family: 'Liberate Wide Normal';
+}
+
+.badge {
+  font-family: 'CMU Typewriter Regular';
+}
+
+/* --------------------------------- Navbar --------------------------------- */
+.link {
+  color: var(--deep-sky-blue);
+  font-weight: bold;
+  text-decoration: none;
+  font-family: 'CMU Serif Upright';
+}
+
+.no-decoration,
+.no-decoration:hover {
+  text-decoration: none;
+}
+.outlineOnHover {
+  border: 1em solid rgb(255, 0, 0);
+}
+.link:hover {
+  color: var(--portal-orange);
+  text-decoration: none;
+}
+.nav-item {
+  font-size: 32px;
+  padding-right: 1.5em;
+  line-height: 2em;
+}
+.inactive-link {
+  color: var(--deep-sky-blue);
+  font-weight: bold;
+  text-decoration: none;
+  font-family: 'CMU Serif Upright';
+}
+.active-link {
+  color: var(--portal-orange);
+  font-weight: bold;
+  text-decoration: none;
+  font-family: 'CMU Serif Upright';
+}
+
+/* ------------------------------- Animations ------------------------------- */
+.animate-zoom-in-and-lift { transition: transform 0.2s, box-shadow 0.2s, background-color 0.2s; }
+.animate-zoom-in-and-lift:hover {
+  transform: scale(1.02) translateY(-5px);
+  box-shadow: 0 2px 25px #404040;
+  background-color: var(--nero);
+}
+
+.shadow-xl { box-shadow: 0 2px 10px black; }
+
+@keyframes wiggle {
+  33% {
+    transform: rotate(-24deg);
+  }
+  66% {
+    transform: rotate(24deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.animate-wiggle {
+  animation: wiggle 0.5s;
+}
